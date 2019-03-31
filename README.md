@@ -51,3 +51,6 @@ Postman postman = MailUtils.callPostman(Protocol.SMTP, SMTP_163, account);
 // 把信件交给邮递员，并指定收件人（可以指定多个收件人）。然后让邮递员进行派件。
 postman.mail(mail).receiver("18511012947@163.com", "18511012947@163.com").deliverNow();
 ```
+这个目录有直接可以运行的测试代码：
+
+felt-core/src/test/java/com/aries/email/felt/core/SendMailTest.java
