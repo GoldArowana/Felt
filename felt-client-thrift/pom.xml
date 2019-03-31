@@ -24,7 +24,6 @@
             <groupId>com.aries.email</groupId>
             <artifactId>felt-contract-thrift</artifactId>
             <version>${project.parent.version}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.aries.email</groupId>
@@ -35,11 +34,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.aries.email</groupId>
-            <artifactId>felt-core</artifactId>
-            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
