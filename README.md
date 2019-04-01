@@ -7,7 +7,7 @@
 
 ![avatar](./doc/pic/felt.jpg)
 
-## core模块的功能
+## core模块-本地调用
 在项目中引入repository和dependency
 ```xml
     <repositories>
