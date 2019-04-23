@@ -14,7 +14,8 @@ public class MailAddress {
         return new MailAddress(address);
     }
 
-    @Override public String toString() {
+    @Override
+    public String toString() {
         return this.address;
     }
 }

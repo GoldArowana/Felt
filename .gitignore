@@ -2,3 +2,6 @@
 **/*.iml
 **/target
 **/*.versionsBackup
+**/.DS_Store
+**/*.log
+**/*.out

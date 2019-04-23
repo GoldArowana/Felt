@@ -42,7 +42,8 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
     }
 
     public short age; // required
-    public @org.apache.thrift.annotation.Nullable java.lang.String name; // required
+    public @org.apache.thrift.annotation.Nullable
+    java.lang.String name; // required
     public boolean sex; // required
     public double salary; // required
     public byte childrenCount; // required
@@ -120,7 +121,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __AGE_ISSET_ID);
     }
 
-    /** Returns true if field age is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field age is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetAge() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __AGE_ISSET_ID);
     }
@@ -143,7 +146,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         this.name = null;
     }
 
-    /** Returns true if field name is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field name is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetName() {
         return this.name != null;
     }
@@ -168,7 +173,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __SEX_ISSET_ID);
     }
 
-    /** Returns true if field sex is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field sex is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetSex() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __SEX_ISSET_ID);
     }
@@ -191,7 +198,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __SALARY_ISSET_ID);
     }
 
-    /** Returns true if field salary is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field salary is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetSalary() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __SALARY_ISSET_ID);
     }
@@ -214,7 +223,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __CHILDRENCOUNT_ISSET_ID);
     }
 
-    /** Returns true if field childrenCount is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field childrenCount is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetChildrenCount() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __CHILDRENCOUNT_ISSET_ID);
     }
@@ -290,7 +301,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         throw new java.lang.IllegalStateException();
     }
 
-    /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+     */
     public boolean isSet(_Fields field) {
         if (field == null) {
             throw new java.lang.IllegalArgumentException();
@@ -522,7 +535,9 @@ public class Person implements org.apache.thrift.TBase<Person, Person._Fields>, 
         }
     }
 
-    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    /**
+     * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+     */
     public enum _Fields implements org.apache.thrift.TFieldIdEnum {
         AGE((short) 1, "age"),
         NAME((short) 2, "name"),

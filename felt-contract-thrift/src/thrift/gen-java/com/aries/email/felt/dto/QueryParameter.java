@@ -86,7 +86,9 @@ public class QueryParameter implements org.apache.thrift.TBase<QueryParameter, Q
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __AGESTART_ISSET_ID);
     }
 
-    /** Returns true if field ageStart is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field ageStart is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetAgeStart() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __AGESTART_ISSET_ID);
     }
@@ -109,7 +111,9 @@ public class QueryParameter implements org.apache.thrift.TBase<QueryParameter, Q
         __isset_bitfield = org.apache.thrift.EncodingUtils.clearBit(__isset_bitfield, __AGEEND_ISSET_ID);
     }
 
-    /** Returns true if field ageEnd is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field ageEnd is set (has been assigned a value) and false otherwise
+     */
     public boolean isSetAgeEnd() {
         return org.apache.thrift.EncodingUtils.testBit(__isset_bitfield, __AGEEND_ISSET_ID);
     }
@@ -152,7 +156,9 @@ public class QueryParameter implements org.apache.thrift.TBase<QueryParameter, Q
         throw new java.lang.IllegalStateException();
     }
 
-    /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+    /**
+     * Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise
+     */
     public boolean isSet(_Fields field) {
         if (field == null) {
             throw new java.lang.IllegalArgumentException();
@@ -297,7 +303,9 @@ public class QueryParameter implements org.apache.thrift.TBase<QueryParameter, Q
         }
     }
 
-    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    /**
+     * The set of fields this struct contains, along with convenience methods for finding and manipulating them.
+     */
     public enum _Fields implements org.apache.thrift.TFieldIdEnum {
         AGE_START((short) 1, "ageStart"),
         AGE_END((short) 2, "ageEnd");
