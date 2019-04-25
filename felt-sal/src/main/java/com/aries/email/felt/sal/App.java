@@ -10,7 +10,7 @@ import org.apache.thrift.transport.TTransportException;
 public class App {
     public static void main(String[] args) throws CallFailedException, TTransportException, InterruptedException {
 
-        System.out.println(DiscoverClient.getServices("Felt"));
+        System.out.println(DiscoverClient.getServices("Athena"));
 
 //        System.out.println(DiscoverClient.registe(new ServiceInfo(){{
 //            setName("Felt");
